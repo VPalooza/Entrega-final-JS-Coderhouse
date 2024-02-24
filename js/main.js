@@ -4,7 +4,7 @@ function recuperarCarrito() {
     return localStorage.getItem("miCarrito") === null ? [] : JSON.parse(localStorage.getItem("miCarrito"));
 }
 
-const URL = "./js/productos.json"
+const URL = "/js/productos.json"
 
 const productos = []
 

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- JAVASCRIPT -->
+    <script defer src="../js/main.js"></script>
+    <script defer src="../js/checkout.js"></script>
+    <!-- LIBRERIAS JS -->
+    <!-- SWEET ALERT -->
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.all.min.js
+    "></script>
+    <link href="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.min.css
+    " rel="stylesheet">    
+    <!-- TOASTIFY -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Tienda de Repostería</title>
+</head>
+
+<body>
+    <!-- Header & navbar -->
+    <header>
+        <nav id="nav-bar">
+            <ul class="iconos-nav">
+                <li class="home-back"><a href="./index.html"><i class="fa-sharp fa-solid fa-house"></i></a></li>
+                <li class="market-icon"><i class="fa-sharp fa-solid fa-cart-shopping" id="carrito-icon"
+                        title="Ir al carrito"></i></li>
+            </ul>
+        </nav>
+        <div class="titulo">
+            <h1>🍩🍪 Tienda de respostería 🧁🎂</h1>
+        </div>
+    </header>
+    <!-- BODY TIENDA -->
+    <div class="busqueda-input">
+        <label for="buscar-cosas" class="buscar-item-label">¿Qué se te antoja?</label>
+        <div class="container-search">
+            <input type="search" id="buscar-cosas" placeholder="Escribe aquí lo que buscas">
+            <button id="buscar-item-boton">buscar</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="caja">
+        </div>
+    </div>
+
+    <!-- CARDS -->
+    <div class="error-carta">
+        <i class="error-icono fa-solid fa-circle-exclamation fa-beat"></i>
+        <p class="text-error-carta">
+            ¡Lo sentimos! Lorem ipsum dolor sit.
+        </p>
+    </div>
+
+    <footer>
+Proyecto final Javascript — Coderhouse
+    </footer>
+</body>
+
+</html>
